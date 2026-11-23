@@ -18,7 +18,28 @@ Vetrina web personale in stile **dark tech / terminale** sviluppata con **HTML5*
 * **Featured Projects**: schede con accesso diretto ai repository principali (`Gestionale Ristorante`, `EU Air Quality Profiling`, `EU Cities Profiling`, `Data Analytics Portfolio`).
 
 ### Struttura del repository
-```text
-├── index.html   # Struttura semantica della landing page / mini-CV
-├── style.css    # Layout responsive, tema dark tech e glassmorphism
-└── README.md    # Documentazione del repository
+    ├── index.html   # Struttura semantica della landing page / mini-CV
+    ├── style.css    # Layout responsive, tema dark tech e glassmorphism
+    └── README.md    # Documentazione del repository
+
+### Pubblicazione
+Il sito è pubblicato tramite **GitHub Pages** dal branch `main` (`/`).
+
+---
+
+## English
+
+Personal **dark tech / terminal-inspired** web showcase built with semantic **HTML5** and modern **CSS3**, serving as an interactive digital profile highlighting my background across economics, **Python** development, **Data & Business Analytics**, **Cybersecurity**, and **Generative AI**.
+
+### Page Sections
+* **Profile Window (`profile.sh`)**: concise overview, core focus areas, and direct links to GitHub and LinkedIn.
+* **Core Stack & Skills**: structured skill cards covering software & backend (`Python (OOP)`, `Django`, `Rust`, `CLI & Flask`, `Git & GitHub`, `Testing`, `HTML5 / CSS3`), data & business analytics (`SQL & BigQuery`, `Data Profiling`, `Tableau Public`, `Google Analytics 4`, `Excel / CSV`), security, AI, and languages.
+* **Featured Projects**: cards linking directly to key repositories (`Gestionale Ristorante`, `EU Air Quality Profiling`, `EU Cities Profiling`, `Data Analytics Portfolio`).
+
+### Repository Structure
+    ├── index.html   # Semantic landing page / mini-CV markup
+    ├── style.css    # Responsive layout, dark tech palette & glassmorphism styling
+    └── README.md    # Repository documentation
+
+### Deployment
+Hosted via **GitHub Pages** from the `main` branch (`/`).
