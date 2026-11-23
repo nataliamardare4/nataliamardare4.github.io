@@ -1,204 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primo passo</title>
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/menu.css">
-
-
-<!-- se metti style qui sotto sara solo all`inizio di questa pagina xche viene richiamo ultimo h1 tutti gli altri h (2,3,4,5,6) prenderano il colore Red-->
-    
-    <style>
-
-        /* inserisce il CSS dentro */
-       
-    </style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natalia Mardare | Python, Data Analytics & AI Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
 </head>
-
 <body>
-    
-    <nav class="navbar">
-        
-        <a href="./index.html" class="logo">
-            <img src="./IMG/risto.ico" alt="logo">
-        </a>
-        
-<!----HAMBURGHER-->
+  <div class="bg-glow"></div>
 
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
+  <main class="container">
+    <!-- Hero / Finestra Principale -->
+    <header class="terminal-window">
+      <div class="terminal-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">natalia_mardare — profile.sh</span>
+      </div>
+
+      <div class="hero-content">
+        <p class="badge">AVAILABLE FOR DATA &amp; PYTHON ROLES</p>
+        <h1>Natalia Mardare</h1>
+        <p class="subtitle">
+          Economics Graduate &bull; Python Developer &bull; Data &amp; Revenue Analyst
+        </p>
+        <p class="bio">
+          Unisco un solido background in economia, amministrazione e hospitality di alto livello
+          con lo sviluppo software in <strong>Python</strong>, l’analisi dati (<strong>SQL, BigQuery, Tableau</strong>)
+          e le fondamenta di <strong>Cybersecurity &amp; Generative AI</strong>.
+        </p>
+
+        <div class="cta-group">
+          <a href="https://github.com/nataliamardare4" target="_blank" rel="noopener" class="btn btn-primary">
+            GitHub Profile
+          </a>
+          <a href="https://www.linkedin.com/in/nataliamardare" target="_blank" rel="noopener" class="btn btn-secondary">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Competenze Tech -->
+    <section class="section">
+      <h2 class="section-title"><span class="accent">//</span> Core Stack &amp; Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Software &amp; Backend</h3>
+          <div class="tags">
+            <span>Python (OOP)</span>
+            <span>CLI &amp; Flask</span>
+            <span>Git &amp; GitHub</span>
+            <span>Testing</span>
+            <span>HTML5 / CSS3</span>
+          </div>
         </div>
 
-
-        <div class="nav-container" id="nav-menu">
-            <ul class="nav-list">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./lez_classi_Id.html">Lez Classi ID</a></li>
-                <li><a href="./form.html">Form</a></li>
-                
-                <li class="dropdown">
-                    <a href="#">Servizi</a>
-                    <div class="dropdown-content">
-                        <a href="#">Tech</a>
-                        <a href="#">Software</a>
-                        <a href="#">Generico</a>
-                    </div>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">Categoria</a>
-                    <div class="dropdown-content">
-                        <a href="#">Cat_1</a>
-                        <a href="#">Cat_2</a>
-                        <div class="nested-dropdown">
-                            <a href="#">Cat_3 > </a>
-                            <div class="nested-dropdown-content">
-                                <a href="#">Windows</a>
-                                <a href="#">Linux</a>
-                                <a href="#">MacOS</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </li>
-            </ul>
+        <div class="skill-card">
+          <h3>Data &amp; Business Analytics</h3>
+          <div class="tags">
+            <span>SQL &amp; BigQuery</span>
+            <span>Data Profiling</span>
+            <span>Tableau Public</span>
+            <span>Google Analytics 4</span>
+            <span>Excel / CSV</span>
+          </div>
         </div>
-    
-    </nav>
 
-    <!--Commento
-    commento su piu righe
-    -->
-    <!-- CTR+# commento automatico -->
-    <!-- i tag h1, h2, ... h6 sono i titoli per la pagina -->
-     <!-- con style in linia per aggiungere colore in CSS, background per sfondo -->
-    
-    <h1 style="color: aqua; background-color: black;">Programma con HTML <br>
-    <h2>Sono il titolo h2</h2>
-    <h3>Sono il titolo h3</h3>
-    <h4>Sono il titolo h4</h4>
-    <h5>Sono il titolo h5</h5>
-    <h6>Sono il titolo h6</h6>
-     <!-- tag p: indica il paragrafo e scrive tutto il su contenuto su unica riga
-     della pagina web. usa il tag br per interrompere la riga e scrivere su
-     una nuova riga -->
-     <p>Sono il paragrafo n1 <br>
-        Qui inizia la seconda riga del parag. n1
-    </p>
+        <div class="skill-card">
+          <h3>Security, AI &amp; Languages</h3>
+          <div class="tags">
+            <span>Cybersecurity</span>
+            <span>Generative AI</span>
+            <span>7 Languages</span>
+            <span>Revenue &amp; Ops</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-     <p>
-         Sono il parag. n2
-    </p>
-     <!--il tag a: viene usato per creare link verso le pagine esterne o interne del nostro sito-->
-    
-     <a href="https://www.google.com">Google</a> <!--ti porta sulla pagina di Google-->
-    <!-- inserire una immagine statica -->
-    
-     <img src="./IMG/piatto1.png" alt="PiattoPasta" width="150" height="150">
-    <br> <br>
-     <!-- immagine dinamica con link cliccabile -->
-    
-    <a href="https://ricette.giallozafferano.it/Spaghetti-alla-Carbonara.html" target="_blank">
-     <img src="./IMG/piatto2.png" alt="PiattoCibo" width="150">
-    </a>
-        <!-- aggiungere atributi con tag target -->
-        <!-- continetori: link, immagini -->
-        <!-- contenitori di blocco: sono modificabili -->
+    <!-- Progetti in Evidenza -->
+    <section class="section">
+      <h2 class="section-title"><span class="accent">//</span> Featured Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python &bull; OOP &bull; CLI</span>
+            <a href="https://github.com/nataliamardare4/gestionale-ristorante" target="_blank" rel="noopener">Repo &nearr;</a>
+          </div>
+          <h3>Gestionale Ristorante</h3>
+          <p>
+            Applicazione gestionale modulare da riga di comando con architettura a livelli
+            (<code>models</code>, <code>services</code>, <code>cli</code>, <code>utils</code>, <code>data</code>),
+            gestione eccezioni di dominio e suite di test automatici.
+          </p>
+        </article>
 
-        <!-- aggiungiamo LISTA -->
-    <h2>LISTA</h2>
-    <!-- aggiungere Lista con bullets/non ordinata -->
-    <h3>Lista non ordinata</h3>
-    <ul>
-    <li>Elemento 1</li>
-    <li>Elemento 2</li>
-    <li>Elemento 3</li>
-    <li>
-    <a href="https://www.google.com" target="_blank">Google link</a>
-    </li>
-    </ul>
-    <!-- aggiungere Lista ordinata/con dei numere -->
-     <h3>Lista ordinata</h3>
-     <ol>
-     <li>Elemento 1</li>
-     <li>Elemento 2</li>
-     <li>Elemento 3</li>
-     <li>
-        <a href="https://www.google.com" target="_blank">Google link</a>
-     </li>
-     </ol>
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Data Quality &bull; Jupyter</span>
+            <a href="https://github.com/nataliamardare4/eu-air-quality-profiling" target="_blank" rel="noopener">Repo &nearr;</a>
+          </div>
+          <h3>EU Air Quality Profiling</h3>
+          <p>
+            Analisi di profiling e validazione su griglie interpolate della qualità dell’aria
+            in Europa (PM2.5, NO2, O3) con controlli di integrità e pulizia dei dati.
+          </p>
+        </article>
 
-     <h2>Tabella</h2>
-<!-- tr -TITOLO COLONNA -->
-     <table>
-        <tr>
-            <th>Nome</th>
-            <th>Cognome</th>
-            <th>Eta</th>
-        </tr>
-        <tr>
-            <td>Mario</td>
-            <td>Rossi</td>
-            <td>30</td>
-        </tr>
-        <tr>
-            <td>Vito</td>
-            <td>Gialli</td>
-            <td>35</td>
-        </tr>
-        <tr>
-            <td>Piatto di pasta</td>
-            <td><img src="./IMG/piatto3.png" alt="Piatto3" width="50"></td>
-            <td>   
-                <a href="https://ricette.giallozafferano.it/Spaghetti-alla-Carbonara.html">
-                    clicca qui
-                </a>
-            </td>
-        </tr>
-     </table>
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Analytics &bull; Europe</span>
+            <a href="https://github.com/nataliamardare4/eu-cities-profiling" target="_blank" rel="noopener">Repo &nearr;</a>
+          </div>
+          <h3>EU Cities Profiling</h3>
+          <p>
+            Valutazione sistematica della qualità dei dati sulle capitali europee con
+            identificazione di anomalie, valori mancanti e metriche comparative.
+          </p>
+        </article>
 
-     <!-- tag per Calendario di corsi -->
-      <h2>Calendario corsi</h2>
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Portfolio Hub</span>
+            <a href="https://github.com/nataliamardare4/data-analytics-portfolio" target="_blank" rel="noopener">Repo &nearr;</a>
+          </div>
+          <h3>Data Analytics Portfolio</h3>
+          <p>
+            Indice centrale dei progetti di analisi dati, dashboard e notebook esplorativi
+            sviluppati in Python, SQL e Tableau.
+          </p>
+        </article>
+      </div>
+    </section>
 
-      <table>
-
-            <tr>
-                <th>Giorni</th>
-                <th>Prima ora</th>
-                <th>Seconda ora</th>
-                <th>Terza ora</th>
-            </tr>
-            <tr>
-                <td>Lunedi</td>
-                <td colspan="2">Matematica</td>
-                <td>Italiano</td>
-                <!-- td -per Valori -->
-                 <!-- colspan per estendere una cella per x2 colonne, si estende per colonne -->
-            </tr>
-            <tr>
-                <td>Martedi</td>
-                <td rowspan="2">Informatica</td>
-                <td>Matematica</td>
-                <td>Italiano</td>
-                <!-- con rowspan non incide sulla colonna, si estende solo sulle righe -->
-            </tr>
-            <tr>
-                <td>Mercoledi</td>
-                <td>Storia</td>
-                <td>Ed.fisica</td>
-            </tr>
-
-      </table>
-
-<script src="./JS/index.js"></script>
-
+    <footer class="footer">
+      <p>&copy; 2026 Natalia Mardare &bull; Built with HTML5 &amp; CSS3 &bull; Hosted on GitHub Pages</p>
+    </footer>
+  </main>
 </body>
-        
-
 </html>
